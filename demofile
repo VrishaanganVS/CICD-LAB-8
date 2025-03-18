@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Checkout your source code from version control
-                git 'https://github.com/your/repository.git'
+                git 'https://github.com/VrishaanganVS/CICD-LAB-8.git'
             }
         }
 
